@@ -165,6 +165,7 @@ footer ul a {
 footer ul a:hover {
     color: #bc3333;
     border-bottom: 4px solid #ff0000;
+    transition: 300ms;
 }
 
 footer {
@@ -178,15 +179,9 @@ footer nav {
     align-items: center;
 }
 
-.footer__text {
-    color: #5a5a5a;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: arial;
-    text-align: center;
-    margin-top: 65px;
-}
 
+
+/* media start */
 
 @media (max-width:1120px) {
     .container {
@@ -211,10 +206,6 @@ footer nav {
 
     .right__item {
         margin-top: 10px;
-    }
-
-    .footer__text {
-        text-align: center;
     }
 
     footer li {
@@ -278,3 +269,5 @@ footer nav {
    }
  
 }
+
+/* media end */
